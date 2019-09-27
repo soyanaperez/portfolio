@@ -1,0 +1,116 @@
+@font-face{
+    font-family: 'Poppins-Bold';
+    src: url('../type/Poppins-Bold.ttf');
+    font-family: "Poppins-Regular";
+    src: url('../type//Poppins-Regular.ttf');
+}
+
+
+body{
+    font-family: "Poppins-Regular";
+    color: #344C54;
+    /*background-color: red;*/
+    width: 100vw;
+    height: 100vh;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+.nav{
+    width: 100vw;
+    height: 100px;
+    display:flex;
+    justify-content: flex-end;
+    /*background-color: yellow;*/
+}
+
+.global{
+    display: flex;
+
+}
+
+
+.foto{
+width: 40vw;
+}
+
+
+.title{
+    font-size: 70px;
+    width: 100%;
+    /*background-color: #F2C1C6;*/
+}
+
+.description{
+    display:flex;
+    flex-direction: column;
+    width: 60vw;
+ /*  margin-left: 10%;
+   margin-right: 2%; */
+}
+
+.textDescription{
+    padding-right: 15%;
+/*background-color: royalblue;*/
+}
+
+.cerrar{
+    margin-right: 11%;
+    margin-top: 4.3%;
+}
+
+.cerrar a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #344C54;
+}
+
+a:hover{
+    color:#F2C1C6;
+}
+
+.picture{
+    width: 600px;
+    /*margin-left: 60%;*/
+}
+
+.containerIcons{
+   /* background-color: #F2C1C6;*/
+    height: 10%;
+}
+
+.containerIcons img{
+    height: 50%;
+/*background-color: aquamarine;*/
+}
+
+.iconos{
+    object-fit: fill;
+    display:flex;
+    justify-content: flex-end;
+/*background-color: antiquewhite;*/
+    margin-right: 19%;
+}
+.iconos a{
+    padding-left: 10%;
+    height: 60px;
+}
+.iconos i{
+font-size:48px;
+color:#344C54;
+padding-left: 10%;
+}
+.iconos i:hover{
+    color:#F2C1C6;
+
+h3{
+    font-size:25px;
+    /*background-color: yellowgreen;*/
+}
+p{
+    font-size:16px;
+}
+
+
+
