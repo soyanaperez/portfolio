@@ -16,9 +16,12 @@ html {
 
 body{
     font-family: 'poppins', 'rubik', sans-serif;
-    color: #344C54;
+    /*color: #344C54;*/
 }
 
+img:hover{
+    opacity: 0.5;
+}
 
 .main{
     display: flex;
@@ -97,7 +100,6 @@ body{
 #startProjects{
     width: 100vw;
     height: 100vh;
-    background-color: white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -117,39 +119,98 @@ background-color: white;
 
 
 .absolut{
-    width: 40%;
+    width: 20%;
     /*position: absolute;*/
    /* display:flex;
     flex-direction: column;*/
-    background-color: #84BED6;
-    padding-left: 10%;
+   /* background-color: #84BED6;*/
+    padding-left: 4%;
     padding-top: 10%;
 }
 
-.imgProject{
-    width: 60%;
+.imgProject1{
+    width: 100vw;
     height: 80%;
-    background-image: url(./img/Sin\ título-1.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
-.imgProject img{
+.imgProject1 img{
+    padding-left: 17%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.oscurecer {
+    background-image: url(./img/voluntnearmockup.jpg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+  height: 80%;
+  width: 80%;
+  }
+
+.imgProject2{
+    width: 100vw;
+    height: 80%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.imgProject2 img{
+    padding-left: 17%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+.imgProject3{
+    width: 100vw;
+    height: 80%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+.imgProject3 img{
+    padding-left: 17%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.imgProject4{
+    width: 100vw;
+    height: 80%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.imgProject4 img{
+    padding-left: 17%;
     height: 100%;
     object-fit: cover;
 }
 
 
-
 h2{
     font-size: 100px;
     font-family: "poppins-Bold";
+    width: 30vw;
+    color:#172226;
     /*margin-bottom: 5%;*/
 }
 
 h3{
     font-size: 20px;
     line-height : 30px;
+    width: 25vw;
+    color: #273A41;
    /* margin-bottom: 2%;*/
 }
 
@@ -158,10 +219,10 @@ h3{
     /*padding-bottom: 3%;*/
 }
 
-@media only screen and (min-width:0px) and (max-width:349px){
+@media only screen and (min-width:0px) and (max-width:440px){
     .principal{
         width: 100vw;
-        height: 70vh;
+        height: 100vh;
         background-color: #F2C1C6;
         display:flex;
         flex-direction: column;
@@ -171,7 +232,7 @@ h3{
     .about{
         margin-top: 20%;
         margin-right: 10%;
-        *display: flex;
+        display: flex;
         align-self: flex-end;
     }
 
@@ -180,21 +241,29 @@ h3{
     }
     
     .anaLogo{
-        margin-top: 57%;
+        margin-top: 65%;
         width: 80%;
     }
 
     .arrowSpace{
-        margin-top: 3%;
+        margin-top: 40%;
         width: 10%;
     }
     
     .blanc{
         width: 100vw;
-        height: 10vh;
+        height: 20vh;
         background-image: url(./img/810.jpg);
         background-size: auto;
         background-attachment: fixed;
+    }
+
+    #startProjects{
+        width: 100vw;
+        height: 100vh;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
     }
     
     .project{
@@ -210,13 +279,13 @@ h3{
         /*position: absolute;*/
        /* display:flex;
         flex-direction: column;*/
-        background-color: blanchedalmond;
         padding-left: 10%;
         padding-top: 10%;
     }
     
     h2{
         font-size: 40px;
+        width: 90vw;
         font-family: "poppins-Bold";
         /*margin-bottom: 5%;*/
     }
@@ -224,6 +293,7 @@ h3{
     h3{
         font-size: 12px;
         line-height : 20px;
+        width: 90vw;
         margin-bottom: 10%;
         margin-top: 3%;
         padding-right: 10%;
@@ -234,21 +304,45 @@ h3{
         /*padding-bottom: 3%;*/
     }
     
-    .imgProject{
-        width: 100vw;
-        background-image: url(./img/Sin\ título-1.png);
+
+    .img:hover{
+        opacity: 0.5;
+        cursor: pointer;
     }
-    .imgProject img{
+
+    .imgProject1 img{
+        padding-left: 0;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .imgProject2 img{
+        padding-left: 0;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .imgProject3 img{
+        width: 100vw;
+        padding-left: 0;
+        height: 100%;
+        object-fit: cover;
+    }
+    .imgProject4 img{
+        width: 100vw;
+        padding-left: 0;
         height: 100%;
         object-fit: cover;
     }
 
 }
 
-@media only screen and (min-width:350px) and (max-width:414px){
+
+
+@media only screen and (min-width:441px) and (max-width:767px){
     .principal{
         width: 100vw;
-        height: 70vh;
+        height: 100vh;
         background-color: #F2C1C6;
         display:flex;
         flex-direction: column;
@@ -256,32 +350,40 @@ h3{
     }
     
     .about{
-        margin-top: 20%;
+        margin-top: 7%;
         margin-right: 10%;
         *display: flex;
         align-self: flex-end;
     }
 
     .about a{
-        font-size: 14px;
+        font-size: 20px;
     }
     
     .anaLogo{
-        margin-top: 57%;
+        margin-top: 55%;
         width: 80%;
     }
 
     .arrowSpace{
-        margin-top: 3%;
+        margin-top: 10%;
         width: 10%;
     }
     
     .blanc{
         width: 100vw;
-        height: 10vh;
+        height: 20vh;
         background-image: url(./img/810.jpg);
         background-size: auto;
         background-attachment: fixed;
+    }
+
+    #startProjects{
+        width: 100vw;
+        height: 100vh;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
     }
     
     .project{
@@ -297,126 +399,77 @@ h3{
         /*position: absolute;*/
        /* display:flex;
         flex-direction: column;*/
-        background-color: blanchedalmond;
         padding-left: 10%;
         padding-top: 10%;
     }
     
     h2{
         font-size: 40px;
+        width: 90vw;
         font-family: "poppins-Bold";
         /*margin-bottom: 5%;*/
     }
     
     h3{
-        font-size: 14px;
+        font-size: 12px;
         line-height : 20px;
+        width: 90vw;
         margin-bottom: 10%;
         margin-top: 3%;
         padding-right: 10%;
     }
     
     .year{
-        font-size: 12px;
+        font-size: 10px;
         /*padding-bottom: 3%;*/
     }
     
-    .imgProject{
-        width: 100vw;
-        background-image: url(./img/Sin\ título-1.png);
-    }
-    .imgProject img{
-        height: 100%;
-        object-fit: cover;
-    }
 
+.img:hover{
+    opacity: 0.5;
+    cursor: pointer;
 }
 
-@media only screen and (min-width:415px) and (max-width:768px){
-    .principal{
-        width: 100vw;
-        height: 80vh;
-        background-color: #F2C1C6;
-        display:flex;
-        flex-direction: column;
-        align-items: center;
+.imgProject1 img{
+    padding-left: 0;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imgProject2 img{
+    padding-left: 0;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imgProject3 img{
+    padding-left: 0;
+    height: 100%;
+    object-fit: cover;
+}
+.imgProject4 img{
+    padding-left: 0;
+    height: 100%;
+    object-fit: cover;
+}
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px){
+    .about a{
+        text-decoration: none;
+        padding-top: 100px;
+        font-size: 35px;
+        color: #344C54;
     }
-    
-    .about{
-        margin-top: 20%;
-        margin-right: 10%;
-        *display: flex;
-        align-self: flex-end;
-    }
-    
+
     .anaLogo{
-        margin-top: 60%;
-        width: 80%;
+        width: 70%;
     }
 
-
-    .arrowSpace{
-        margin-top: 3%;
-        width: 10%;
-        height: 10%;
+    .arrowSpace img{
+        width: 130%;
+        padding-top: 100px; 
     }
-    
-    .blanc{
-        width: 100vw;
-        height: 13vh;
-        background-image: url(./img/810.jpg);
-        background-size: auto;
-        background-attachment: fixed;
-    }
-    
-    .project{
-        width: 100vw;
-        height: 100vh;
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .absolut{
-        width: 100vw;
-        /*position: absolute;*/
-       /* display:flex;
-        flex-direction: column;*/
-        background-color: blanchedalmond;
-        padding-left: 10%;
-        padding-top: 10%;
-    }
-    
-    h2{
-        font-size: 40px;
-        font-family: "poppins-Bold";
-        /*margin-bottom: 5%;*/
-    }
-    
-    h3{
-        font-size: 14px;
-        line-height : 20px;
-        margin-bottom: 10%;
-        margin-top: 3%;
-        padding-right: 10%;
-    }
-    
-    .year{
-        font-size: 12px;
-        /*padding-bottom: 3%;*/
-    }
-    
-    .imgProject{
-        width: 100vw;
-        background-image: url(./img/Sin\ título-1.png);
-    }
-    .imgProject img{
-        width: 100vw;
-    }
-
-}
-
-@media only screen and (min-width:769px) and (max-width:1024px){
     .principal{
         width: 100vw;
         height: 100vh;
@@ -429,6 +482,14 @@ h3{
         margin-top: 70%;
         width: 80%;
     }
+
+    #startProjects{
+        width: 100vw;
+        height: 100vh;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+    }
     .project{
         width: 100vw;
         height: 100vh;
@@ -441,36 +502,62 @@ h3{
         /*position: absolute;*/
        /* display:flex;
         flex-direction: column;*/
-        background-color: blanchedalmond;
+        /*background-color: blanchedalmond;*/
         padding-left: 10%;
         padding-top: 10%;
     }
     h2{
-        font-size: 60px;
+        font-size: 6em;
+        width: 80vw;
         font-family: "poppins-Bold";
         /*margin-bottom: 5%;*/
     }
     
     h3{
-        font-size: 18px;
-        line-height : 20px;
+        font-size: 22px;
+        width: 90vw;
+        line-height : 45px;
         margin-top: 3%;
         margin-bottom: 10%;
         padding-right: 10%;
     }
     
     .year{
-        font-size: 14px;
+        font-size: 24px;
         /*padding-bottom: 3%;*/
     }
+    .img:hover{
+        opacity: 0.5;
+        cursor: pointer;
+    }
+
+    .imgProject1 img{
+        width: 100vw;
+        padding-left: 0;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .imgProject2 img{
+        width: 100vw;
+        padding-left: 0;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .imgProject3 img{
+        width: 100vw;
+        padding-left: 0;
+        height: 100%;
+        object-fit: cover;
+    }
+    .imgProject4 img{
+        width: 100vw;
+        padding-left: 0;
+        height: 100%;
+        object-fit: cover;
+    }
     
-    .imgProject{
-        width: 100vw;
-        background-image: url(./img/Sin\ título-1.png);
-    }
-    .imgProject img{
-        width: 100vw;
-    }
 
 }
 @media only screen and (min-width:1025px) and (max-width:1440px){
