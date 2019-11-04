@@ -47,15 +47,47 @@ img:hover{
 }
 .about a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 24px;
     color: #344C54;
 }
 
 .about a:visited{
     text-decoration: none;
+    z-index: 1;
     font-size: 20px;
     color: #344C54;
 }
+
+.link{
+    text-decoration: none;
+    padding-top: 50px;
+   /* background-color: white;
+    color:#F2C1C6;
+    border: 1px solid #344C54;;
+    min-width: 20px;
+    padding: 15px 20px;
+    position: relative;
+    margin-top: 20%;*/
+}
+
+.link:hover{
+
+}
+
+.link a{
+    color:#172226;
+    text-decoration: none;
+    border: 2px solid #F2C1C6;
+    border-radius: 5px;
+    padding: 15px 20px;
+}
+
+.link a:hover{
+color:#F2C1C6;
+border: 1px solid #F2C1C6;
+
+}
+
 .about a:hover{
     color:white;
 }
@@ -200,7 +232,7 @@ background-color: white;
 
 h2{
     font-size: 100px;
-    font-family: "poppins-Bold";
+    font-family: "poppins-Bold", sans-serif;
     width: 30vw;
     color:#172226;
     /*margin-bottom: 5%;*/
@@ -209,7 +241,7 @@ h2{
 h3{
     font-size: 20px;
     line-height : 30px;
-    width: 25vw;
+    width: 30vw;
     color: #273A41;
    /* margin-bottom: 2%;*/
 }
